@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* Reseta margens e define box-sizing para todos os elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo para imagens */
+img {
+  width: 45vw;
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 10px auto; /* Centraliza horizontalmente e adiciona margem */
+}
+
+/* Estilo para parágrafos */
+p {
+  margin: 10px 0;
+  color: rgb(59, 50, 37);
+}
+
+/* Define a fonte para o corpo do texto */
+body {
+  background-color: rgb(236, 204, 134);
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Estilo para título principal */
+h1 {
+  font-family: "Montagu Slab", sans-serif;
+  margin: 20px 0; /* Adiciona margem para separação */
+  color: rgb(59, 50, 37); /* Define a cor do texto */
+}
+
+/* Estilo para títulos de nível 3 */
+h2 {
+  color: rgb(59, 50, 37);
+}
+
+h3 {
+  margin: 10px 0;
+  color: rgb(59, 50, 37); /* Adiciona cor aos títulos */
+}
+
+/* Estilo para itens de lista */
+li {
+  color: rgb(59, 50, 37);
+  margin: 10px 0; /* Adiciona margem para separar itens */
+}
+
+/* Estilo para o elemento main */
+main {
+  border: 10px solid rgb(59, 50, 37); /* Adiciona uma borda sólida com cor */
+  padding-left: 40px;
+}/*# sourceMappingURL=style.css.map */
